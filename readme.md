@@ -1,6 +1,6 @@
-# Exoplanet Odyssey -  The planet Explorer
+# Exoplanet Odyssey - The planet Explorer
 
-Cosmic Wars is a web application that allows users to explore and compare exoplanets. This project includes both a backend server built with Express.js and a frontend interface.
+Exoplanet Odyssey is a web application that allows users to explore and compare exoplanets. This project includes both a backend server built with Express.js and a frontend interface.
 
 ## Prerequisites
 
@@ -14,8 +14,8 @@ To install Cosmic Wars, follow these steps:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/cosmic-wars.git
-   cd cosmic-wars
+   git clone https://github.com/NightBlaze106/The-cache-Crew.git
+   cd The-cache-Crew
    ```
 
 2. Install the dependencies:
@@ -25,7 +25,7 @@ To install Cosmic Wars, follow these steps:
 
 ## Running Cosmic Wars
 
-To run Cosmic Wars, follow these steps:
+To run Exoplanet Odyssey, follow these steps:
 
 1. Start the backend server:
    ```
@@ -74,8 +74,16 @@ Alternatively, see the GitHub documentation on [creating a pull request](https:/
 
 ## Contact
 
-If you want to contact me, you can reach me at `<your_email@example.com>`.
+If you want to contact me, you can reach me at `<nightbalze106@gmail.com>`.
 
 ## License
 
 This project uses the following license: [<license_name>](<link_to_license>).
+
+## Project Structure
+
+The main project directory is located at:
+
+```
+The-cache-Crew/
+```
