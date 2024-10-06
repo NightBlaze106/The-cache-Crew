@@ -8,9 +8,9 @@ Before you begin, ensure you have met the following requirements:
 * You have installed the latest version of [Node.js and npm](https://nodejs.org/en/download/)
 * You have a Windows/Linux/Mac machine with a command line interface.
 
-## Installing Cosmic Wars
+## Installing Exoplanet Odyssey
 
-To install Cosmic Wars, follow these steps:
+To install Exoplanet Odyssey, follow these steps:
 
 1. Clone the repository:
    ```
@@ -62,7 +62,7 @@ If you encounter any issues:
 
 ## Contributing to Exoplanet Odyssey
 
-To contribute to Cosmic Wars, follow these steps:
+To contribute to Exoplanet Odyssey, follow these steps:
 
 1. Fork this repository.
 2. Create a branch: `git checkout -b <branch_name>`.
