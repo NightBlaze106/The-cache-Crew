@@ -23,7 +23,7 @@ To install Cosmic Wars, follow these steps:
    npm install
    ```
 
-## Running Cosmic Wars
+## Running Exoplanet Odyssey
 
 To run Exoplanet Odyssey, follow these steps:
 
@@ -44,7 +44,7 @@ To run Exoplanet Odyssey, follow these steps:
    ```
    Then open `http://localhost:8080` in your web browser.
 
-## Using Cosmic Wars
+## Using Exoplanet Odyssey
 
 Here's a brief overview of how to use the application:
 
@@ -60,7 +60,7 @@ If you encounter any issues:
 - Verify that the `planets.json` file is present and correctly formatted
 - Check the browser console and server logs for any error messages
 
-## Contributing to Cosmic Wars
+## Contributing to Exoplanet Odyssey
 
 To contribute to Cosmic Wars, follow these steps:
 
@@ -74,7 +74,7 @@ Alternatively, see the GitHub documentation on [creating a pull request](https:/
 
 ## Contact
 
-If you want to contact me, you can reach me at `<nightbalze106@gmail.com>`.
+If you want to contact me, you can reach me at `<nightblaze106@gmail.com>`.
 
 ## License
 
