@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400&display=swap');
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #0c0c1d url('https://images.unsplash.com/photo-1504333638930-c8787321eee0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center fixed;
+    background-size: cover;
+    color: #ecf0f1;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 2rem;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+header h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 4rem;
+    color: #00ffff;
+    text-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+    margin: 0;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+#search-bar {
+    width: 60%;
+    padding: 1rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 50px 0 0 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ecf0f1;
+    outline: none;
+}
+
+#search-button {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 0 50px 50px 0;
+    background-color: #00ffff;
+    color: #0c0c1d;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#search-button:hover {
+    background-color: #00cccc;
+}
+
+.planet-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.planet-card {
+    background-color: rgba(0, 255, 255, 0.1);
+    border: 1px solid #00ffff;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 300px;
+    color: #ecf0f1;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.planet-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0, 255, 255, 0.5);
+}
+
+.planet-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #00ffff;
+    margin: 0 auto 1.5rem;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+}
+
+.planet-card h2 {
+    font-family: 'Orbitron', sans-serif;
+    color: #00ffff;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.attributes {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.attributes li {
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.attributes i {
+    margin-right: 0.5rem;
+    color: #00ffff;
+    width: 20px;
+    text-align: center;
+}
+
+.vs-symbol {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #00ffff;
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+    align-self: center;
+}
+
+@media (max-width: 768px) {
+    .planet-cards-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .planet-card {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .vs-symbol {
+        margin: 1rem 0;
+    }
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+.navigation-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: auto;
+}
+
+.nav-button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #00ffff;
+    color: #0c0c1d;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: #00cccc;
+}
